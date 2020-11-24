@@ -5,3 +5,6 @@ python manage.py runserver
 
 RUN FRONTEND
 npm run dev
+
+python manage.py makemigrations
+python manage.py migrate
